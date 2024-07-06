@@ -1,0 +1,52 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.quiz{
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    width:1000px;
+    margin:50px 30px 20px 250px;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+.innerQuiz{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    width:900px;
+    
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border: solid black;
+}
+.index, .head, .ques, .footer, .answers{
+padding: 25px;
+}
+.index{
+    align-self: flex-start;
+   
+}
+
+.footer{
+    display: flex;
+    
+}
+.next{
+    background-color: lightseagreen;
+    
+}
+.prev{
+    background-color: green;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.quit{
+    background-color: red;
+}

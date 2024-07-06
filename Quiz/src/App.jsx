@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import './App.css';
-import QuizApp from './components/questions';
+    
+import QuizApp from './Components/QuizApp';
 
 function App() {
   const quiz=[
